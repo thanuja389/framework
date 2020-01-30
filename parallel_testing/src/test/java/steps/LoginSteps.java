@@ -28,6 +28,7 @@ public class LoginSteps {
 	
 	
 	@When("^user enters amazon username and password$")
+	
 	public void enters_amazon_username_password() {
 		
 		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("thanujachinnu666@gmail.com");
