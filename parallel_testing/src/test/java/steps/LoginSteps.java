@@ -16,7 +16,7 @@ public class LoginSteps {
 	@Given("^user launches the chrome driver$")
 	public void user_launch_chromedriver() {
 		
-		WebDriver driver =new ChromeDriver();
+		WebDriver driver =new ChromeDriver(); 
 		
 		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
 		driver.manage().window().maximize();
